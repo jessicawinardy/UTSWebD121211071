@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@500;700&display=swap');
+
+*{
+    font-family: 'Quicksand', sans-serif;
+    padding: 0%;
+    margin: 0%;
+}
+
+.content{
+  display: flex;
+}
+
+.left{
+    display: flex;
+    flex: 2;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(31, 65, 114);
+    gap: 10vh;
+    padding-top: 10vh;
+    min-height: 90vh;
+}
+
+.list-pengunjung{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+header{
+  display: flex;
+  position: sticky;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  background-color: rgb(31, 65, 114);
+}
+
+header h1{
+  color: rgb(253, 240, 240);
+}
+
+header h3{
+  color: rgb(241, 180, 187);
+}
+

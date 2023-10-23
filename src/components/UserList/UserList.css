@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@500;700&display=swap');
+
+*{
+    font-family: 'Quicksand', sans-serif;
+    padding: 0%;
+    margin: 0%;
+}
+
+.data-pengunjung{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+}
+
+.isi-data{
+    display: flex;
+    flex-direction: column;
+    gap: 1vh;
+    background-color: rgb(253, 240, 240);
+    padding: 15px;
+    padding-left: 5vh;
+    padding-right: 5vh;
+    border-radius: 30px;
+    color: rgb(124, 33, 45);
+}
+
+.buttons-data{
+    display: flex;
+    justify-content: end;
+    gap: 1vh;
+}
+
+.button{
+    border: 0;
+    padding: 2vh;
+    border-radius: 30px;
+    background-color: rgb(241, 180, 187);
+    transition: 0.1s;
+}
+
+.button-edit{
+    background-color: rgb(170, 206, 255);
+}
+
+.button-edit:hover{
+    background-color: rgb(140, 188, 255);
+}
+.button-edit:focus{
+    background-color: rgb(90, 141, 212);
+}
+
+.button-delete:hover{
+    background-color: rgb(234, 151, 160);
+}
+.button-delete:focus{
+    background-color: rgb(214, 128, 138);
+}

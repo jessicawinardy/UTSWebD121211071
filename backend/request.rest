@@ -1,0 +1,28 @@
+GET http://localhost:5000/users
+
+###
+GET http://localhost:5000/users/1
+
+###
+POST http://localhost:5000/users/
+Content-Type: application/json
+
+{
+    "nama": "Jessica",
+    "nim": "D121211071",
+    "dept": "Teknik Informatika",
+    "tanggal": "2014-02-09"
+}
+###
+PATCH http://localhost:5000/users/1
+Content-Type: application/json
+
+{
+    "nama": "Randy",
+    "nim": "D121211023",
+    "dept": "Teknik Informatika",
+    "tanggal": "2014-02-09"
+}
+###
+DELETE http://localhost:5000/users/2
+
